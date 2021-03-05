@@ -1,0 +1,59 @@
+div#rect {
+  background-color: green;
+  width: 80%;
+  margin: 0px auto;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#rect-internal {
+  margin: 0 auto;
+  height: 400px;
+  width: 70%;
+  border-radius: 25px;
+  background-color: white;
+  text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    position: -webkit-sticky; position: sticky;
+    top: 0;
+    background: white;
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    font-weight: bold;
+  }
+
+.half{
+    width: 50%;
+    height: 800px;
+    top: 0;
+    position: fixed;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+
+.left{
+    background-color: red;
+    left: 0;
+}
+
+.right{
+    background-color: black;
+    right: 0;
+}
+
+#Title {
+    padding-left: 30px;
+    padding-top: 10px;
+    text-align: center;
+  }
